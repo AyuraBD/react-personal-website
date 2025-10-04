@@ -1,0 +1,35 @@
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 20px;
+  height: 20px;
+  background: rgba(211, 207, 136, 0.15);
+  border-radius: 50%;
+  animation: bubbleUp 10s linear infinite;
+  left: calc(100% * var(--i, 0.5));
+  opacity: 0.5;
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+.bubble.delay-1 { --i: 0.2; animation-delay: 0s; }
+.bubble.delay-2 { --i: 0.3; animation-delay: 2s; width: 15px; height: 15px; }
+.bubble.delay-3 { --i: 0.5; animation-delay: 4s; width: 25px; height: 25px; }
+.bubble.delay-4 { --i: 0.6; animation-delay: 6s; width: 12px; height: 12px; }
+.bubble.delay-5 { --i: 0.7; animation-delay: 1s; width: 18px; height: 18px; }
+.bubble.delay-6 { --i: 0.85; animation-delay: 3s; width: 22px; height: 22px; }
+.bubble.delay-7 { --i: 0.95; animation-delay: 5s; width: 34px; height: 34px; }
+.bubble.delay-8 { --i: 0.1; animation-delay: 4s; width: 25px; height: 25px; }
+.bubble.delay-9 { --i: 0.8; animation-delay: 6s; width: 52px; height: 52px; }
+.bubble.delay-10 { --i: 0.4; animation-delay: 1s; width: 68px; height: 68px; }
+
+@keyframes bubbleUp {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-900px) scale(1.6);
+    opacity: 0;
+  }
+}

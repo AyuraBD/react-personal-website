@@ -1,0 +1,7 @@
+.about-card .icon svg{
+  transition: all 0.3s ease;
+}
+.about-card:hover .icon svg{
+  color: var(--color-primary);
+  transition: all 0.3s ease;
+}
