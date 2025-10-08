@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
         <div data-aos="fade-up" className='text-center p-4'>
           <p className='mb-5'>If you are building something impactful, interesting and looking for someone who understands the web things to make it in perfect way</p>
-          <Link to="https://wa.me/+01633126607" className='bg-primary font-semibold px-10 py-3 text-md text-black rounded-lg hover-glow'>Let's talk</Link>
+          <Link to="https://wa.me/+01633126607" target='_blank' className='bg-primary font-semibold px-10 py-3 text-md text-black rounded-lg hover-glow'>Let's talk</Link>
         </div>
       </div>
 
