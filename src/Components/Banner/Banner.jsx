@@ -40,7 +40,7 @@ const Banner = () => {
             </div>
             <div className='flex flex-col lg:flex-row justify-center lg:justify-start banner-left items-center gap-4 mb-5 p-1'>
               <Link to='https://wa.me/+01633126607' target='_blank' className='px-8 lg:text-[18px] font-semibold py-2 border border-primary bg-primary text-black rounded-md shadow-primary/50 shadow-md hover:bg-primary hover-glow hover:scale-105 transition-transform duration-500 ease-in-out'>Get in touch</Link>
-              <Link to='https://wa.me/+01633126607' target='_blank' className='px-12 lg:text-[18px] font-semibold py-2 border border-primary rounded-md text-primary hover:text-black hover:bg-primary hover-glow duration-500'>Resume</Link>
+              <Link to='https://drive.google.com/file/d/1nIQvoICxVp2xIKAvgQIOTGbR4CWQMcXo/view?usp=sharing' target='_blank' className='px-12 lg:text-[18px] font-semibold py-2 border border-primary rounded-md text-primary hover:text-black hover:bg-primary hover-glow duration-500'>Resume</Link>
             </div>
             <div className='flex justify-center lg:justify-start banner-left items-center gap-4'>
               <ul className='flex gap-6'>
@@ -55,7 +55,7 @@ const Banner = () => {
                   </Link>
                 </li>
                 <li className='flex justify-center items-center w-10 h-10 border border-primary rounded-full hover-glow'>
-                  <Link to='www.linkedin.com/in/mohammad-ayub-b95637159' target='_blank'>
+                  <Link to='https://x.com/BpAyub' target='_blank'>
                     <FaXTwitter className='text-2xl'></FaXTwitter>
                   </Link>
                 </li>

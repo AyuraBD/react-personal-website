@@ -59,7 +59,7 @@ const Projects = () => {
 
       <div className="flex flex-col md:flex-row gap-4">
         <div data-aos="fade-up" className="w-full lg:w-1/2">
-          <div className="w-full lg:w-2/3 mx-auto text-center text-xl font-semibold border border-primary/20 rounded-full bg-primary/10 p-4">
+          <div className="w-4/5 lg:w-2/3 mx-auto text-center text-xl font-semibold border border-primary/20 rounded-full bg-primary/10 py-3">
               <h3>Courses</h3>
           </div>
 
@@ -71,12 +71,12 @@ const Projects = () => {
                 data-aos="fade-up"
               >
                 <h3 className="text-xl font-semibold text-primary mb-2">{course.title}</h3>
-                <p className="text-gray-300 mb-2">{course.institution}</p>
+                <p className="mb-2">{course.institution}</p>
                 <div className="flex gap-3">
-                  <p className="text-gray-300 flex gap-2 items-center">
+                  <p className="flex gap-2 items-center">
                     <MdLocationOn className="text-primary text-xl"></MdLocationOn> {course.location}
                   </p>
-                  <p className="text-gray-300 flex gap-2 items-center">
+                  <p className="flex gap-2 items-center">
                     <FaCalendar className="text-primary text-md"></FaCalendar>
                     {course.year}
                   </p>
@@ -86,26 +86,26 @@ const Projects = () => {
           </div>
         </div>
         <div data-aos="fade-up" className="w-full lg:w-1/2">
-          <div className="w-full lg:w-2/3 mx-auto text-center text-xl font-semibold border border-primary/20 rounded-full bg-primary/10 p-4">
+          <div className="w-4/5 lg:w-2/3 mx-auto text-center text-xl font-semibold border border-primary/20 rounded-full bg-primary/10 py-3">
               <h3>Experiences</h3>
           </div>
           <div className="py-4 lg:py-12 px-4 max-w-5xl mx-auto" id="experience">
             {experiences.map((exp, index) => (
               <div key={index} className="border border-primary/30 p-4 rounded-lg shadow-sm hover:shadow-md transition mb-4" data-aos="fade-up">
                 <h3 className="text-xl font-semibold text-primary mb-2">{exp.title}</h3>
-                <p className="text-sm text-gray-300 mb-2">
+                <p className="text-sm mb-2">
                   {exp.platform} • {exp.clients}
                 </p>
                 <div className="flex mb-2 gap-3">
-                  <p className="text-gray-300 flex gap-2 items-center">
+                  <p className="flex gap-2 items-center">
                     <MdLocationOn className="text-primary text-xl"></MdLocationOn> {exp.location}
                   </p>
-                  <p className="text-gray-300 flex gap-2 items-center">
+                  <p className="flex gap-2 items-center">
                     <FaCalendar className="text-primary text-md"></FaCalendar>
                     {exp.duration}
                   </p>
                 </div>
-                <p className="text-gray-300 text-md">{exp.description}</p>
+                <p className="text-md">{exp.description}</p>
               </div>
             ))}
           </div>
