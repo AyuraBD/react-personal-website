@@ -40,7 +40,7 @@ const Banner = () => {
             </div>
             <div className='flex flex-col lg:flex-row justify-center lg:justify-start banner-left items-center gap-4 mb-5 p-1'>
               <Link to='https://wa.me/+01633126607' target='_blank' className='px-8 lg:text-[18px] font-semibold py-2 border border-primary bg-primary text-black rounded-md shadow-primary/50 shadow-md hover:bg-primary hover-glow hover:scale-105 transition-transform duration-500 ease-in-out'>Get in touch</Link>
-              <Link to='https://drive.google.com/file/d/1nIQvoICxVp2xIKAvgQIOTGbR4CWQMcXo/view?usp=sharing' target='_blank' className='px-12 lg:text-[18px] font-semibold py-2 border border-primary rounded-md text-primary hover:text-black hover:bg-primary hover-glow duration-500'>Resume</Link>
+              <Link to='https://drive.google.com/file/d/1BnO3qjOn09orhAfFn1iKxK5Kyy7QDJMh/view?usp=sharing' target='_blank' className='px-12 lg:text-[18px] font-semibold py-2 border border-primary rounded-md text-primary hover:text-black hover:bg-primary hover-glow duration-500'>Resume</Link>
             </div>
             <div className='flex justify-center lg:justify-start banner-left items-center gap-4'>
               <ul className='flex gap-6'>
