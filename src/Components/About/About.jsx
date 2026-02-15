@@ -7,7 +7,7 @@ import CountUp from 'react-countup';
 
 const About = () => {
   return (
-    <section className="py-10 lg:py-20 px-4 md:px-0 lg:px-0 relative">
+    <section className="py-10 lg:py-20 px-4 md:px-0 lg:px-0 relative overflow-hidden">
       {/* Background Gradient Spots */}
       <div class="absolute top-20 left-10 lg:left-90 w-62 h-62 rounded-full bg-gradient-to-tr from-primary secondary to-transparent opacity-40 blur-3xl pointer-events-none z-0"></div>
       <div class="absolute bottom-30 right-10 lg:right-50 w-96 h-96 rounded-full bg-gradient-to-bl from-cyan-400 via-blue-500 to-transparent opacity-30 blur-3xl pointer-events-none z-0"></div>

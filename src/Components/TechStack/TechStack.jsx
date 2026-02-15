@@ -13,8 +13,11 @@ const TechStack = () => {
         <div className='border border-primary/50 hover:border-primary hover:scale-105 hover-glow rounded-md p-5'>
           <h3 className='text-2xl text-primary font-semibold mb-5'>Frontend</h3>
           <div class="flex flex-wrap justify-start gap-3 mb-5">
-            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">React</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">React JS</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Next JS</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">HTML</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">SSR & SSG</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">React Router</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">CSS</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Tailwind</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Bootstrap</div>
@@ -24,11 +27,14 @@ const TechStack = () => {
           <h3 className='text-2xl text-primary font-semibold mb-5'>Backend</h3>
           <div class="flex flex-wrap justify-start gap-3 mb-5">
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Node.js</div>
-            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">MongoDB</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Express</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">JWT</div>
-            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Firebase</div>
-            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">REST API</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Better Auth</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Postgres</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">MongoDB</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Prisma</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">TypeScript</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">REST APIs</div>
 
           </div>
         </div>
@@ -39,7 +45,7 @@ const TechStack = () => {
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Webpack</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">VS Code</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Git & Github</div>
-            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">NPM/Yarn/pnpm</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">npm/pnpm</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Figma</div>
           </div>
         </div>
@@ -48,6 +54,7 @@ const TechStack = () => {
           <div class="flex flex-wrap justify-start gap-3 mb-5">
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Netlify</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Vercel</div>
+            <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Neon</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Firebase Hosting</div>
             <div class="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground px-3 py-1 border-primary/30 hover-glow animate-scale-in">Jest</div>
           </div>
@@ -59,6 +66,7 @@ const TechStack = () => {
           <h3 className="text-2xl font-semibold mb-4">Expertise i'm in</h3>
           <ul className="space-y-2 text-gray-300 list-none list-inside">
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline> Component Architecture & Reusability</li>
+            <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Building and integrating RESTful APIs</li>
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Performance Optimization & SEO</li>
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Accessibility & Semantic HTML</li>
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Clean, Maintainable Code Practices</li>
@@ -75,6 +83,7 @@ const TechStack = () => {
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Performance tuning and SEO optimization</li>
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Clean, maintainable code with MVC architecture</li>
             <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Modular, reusable frontend components</li>
+            <li className='flex items-center'><TiTickOutline className='text-2xl text-primary mr-2'></TiTickOutline>Modular and microservices backend design patterns</li>
           </ul>
         </div>
       </div>
